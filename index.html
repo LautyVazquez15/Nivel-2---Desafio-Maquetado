@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Lautaro Layout</title>
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="imagenes/logo.png" alt="logo">
+        <div class="header__menu-responsive">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="header__menu">
+            <a href="#presentacion" class="header__link">Quien soy</a>
+            <a href="#conocimientos" class="header__link">Mis conocimientos</a>
+            <a href="#form-contacto" class="header__link">Contactame</a>
+        </div>
+
+    </header>
+    
+    <section class="portada">
+        <div class="portada__cont">
+            <p class="portada__p">Hola! soy Lautaro</p>
+            <h1 class="portada__titulo">Bienvenidxs a mi sitio web</h1>
+        </div>
+    </section>
+
+    <section class="presentacion" id="presentacion">
+        <div class="presentacion__cont">
+            <div class="presentacion__text">
+                <h2 class="presentacion__h2">Quien soy?</h2>
+                <p class="presentacion__text">Soy estudiante de Sistemas en la universidad nacional de Lanus, Argentina. Tambien me especializo como front-end y back-end developer. Me apasiona el desarrollo de tecnologia e ir adaptandome a los cambios que hay dia a dia en este entorno. Estoy en busqueda de mi primer trabajo, donde pueda aportar desde mis conocimientos y pequeñas experiencias, pero sobre todo poder aprender, creo que es lo mas importante en el rubro IT. 
+                </p>
+            </div>
+            <img class="presentacion__img" src="imagenes/dev.png" alt="developer">
+        </div>
+    </section>
+
+    <section class="conocimientos" id="conocimientos">    
+        <h2 class="conocimientos__title">Mis conocimientos</h2>
+        <div class="main_content">
+            <div class="conocimientos__content">
+                <img src="imagenes/html-css-logo.jpg" alt="" class="conocimientos__img">
+                <h3 class="conocimientos__subtitle">Maquetado Web</h3>
+                <p class="conocimientos__text">LLevo a cabo mediante HTML y CSS, la digitalizacion de diseños a aplicaiones web reales y acordes a las demandas propias del diseño. Para esto utilizo diferentes tecnicas y caracteristicas de estas dos herramientas. La idea es seguir aprendiendo y pronto usar herramientas mas vanzadas como angular y react, como tambien agregar dinamismo con javascript</p>
+            </div>
+            <div class="conocimientos__content">
+                <img src="imagenes/typescript.png" alt="" class="conocimientos__img ts">
+                <h3 class="conocimientos__subtitle">Typescript</h3>
+                <p class="conocimientos__text">Mediante este util lenguaje de programacion, me encargo de desarrollar aplicaciones sencillas para cumpir diferentes tareas u objetivos. Typescript, al ser una version "Avanzada" de javascript, se puede utilizar de diferentes maneras para desarrollar apps de escritorio mediante ts-node u otro entorno de desarrollo</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="form-contacto" id="form-contacto">
+        <h3 class="form__title">Contactame</h3>
+        <div class="form">
+            <div class="form__cont">
+                <label for="input-nombre" class="form__label">NOMBRE</label>
+                <input type="text" id="input-nombre" class="form__input">
+            </div>
+            <div class="form__cont">
+                <label for="input-email" class="form__label">EMAIL</label>
+                <input type="email" id="input-email" class="form__input">
+            </div>        
+            <div class="form__cont">
+                <label for="input-message" class="form__label">MENSAJE</label>
+                <textarea name="message" id="input-message" class="form__textarea"></textarea>
+            </div>        
+            <div class="form__cont">
+                <button class="form__button">Enviar</button>
+            </div> 
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__licencia">
+        <img src="imagenes/logo.png" alt="logo" class="footer__logo">
+        <p>© 2025 LV</p></div>
+        <div class="footer__contacts">
+            <a href="" class="footer__link">
+                <img src="imagenes/footer-images/linkedin-logo.png" alt="linkedin logo" class="link__logo">
+                <p class="footer__text">Linkedin</p>
+            </a>
+            <a href="" class="footer__link">
+                <img src="imagenes/footer-images/github-logo.png" alt="GitHub logo" class="link__logo">
+                <p class="footer__text">GitHub</p>
+            </a>
+            <a href="" class="footer__link">
+                <img src="imagenes/footer-images/instagram-logo.png" alt="Instagram logo" class="link__logo">
+                <p class="footer__text">Instagram</p>
+            </a>
+
+        </div>
+    </footer>
+
+</body>
+</html>
