@@ -1,2 +1,2 @@
 URL a mi gitHub Pages
-https://github.com/LautyVazquez15/Nivel-2---Desafio-Maquetado
+https://lautyvazquez15.github.io/Nivel-2---Desafio-Maquetado/
